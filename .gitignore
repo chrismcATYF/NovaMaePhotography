@@ -218,3 +218,7 @@ obj/Debug/NovaMaePhotography.csproj.CoreCompileInputs.cache
 obj/Debug/NovaMaePhotography.csproj.FileListAbsolute.txt
 obj/Debug/NovaMaePhotography.dll
 obj/Debug/NovaMaePhotography.pdb
+*.dll
+*.pdb
+*.cache
+*.txt
