@@ -220,3 +220,5 @@ C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\
 C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\NovaMaePhotography.csproj.CopyComplete
 C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\NovaMaePhotography.dll
 C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\NovaMaePhotography.pdb
+C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\NovaMaePhotography.Migrations.AddedPhotosToDB.resources
+C:\Users\chris\Documents\Source\NovaMaePhotography\NovaMaePhotography\obj\Debug\NovaMaePhotography.csprojAssemblyReference.cache

@@ -1,6 +1,15 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+#welcomeHeading {
+    margin-top: 40px;
+}
+
+#IndexCarousel {
+    margin-top: 50px;
 }
 
 /* Set padding to keep content from hitting the edges */

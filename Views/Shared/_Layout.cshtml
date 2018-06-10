@@ -9,29 +9,24 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Nova Mae Photography", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="@Url.RouteUrl("AboutPage")">About</a></li>
-                    <li><a href="@Url.RouteUrl("ContactPage")">Contact</a></li>
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <li><a href="@Url.RouteUrl("GalleryPage")">Gallery</a></li>
-                    }
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="@Url.RouteUrl("IndexPage", new { area = "" })">Nova Mae Photography</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="@Url.RouteUrl("IndexPage")">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="@Url.RouteUrl("AboutPage")">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="@Url.RouteUrl("ContactPage")">Contact</a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item"><a class="nav-link" href="@Url.RouteUrl("GalleryPage")">Gallery</a></li>
+                }
+            </ul>
+            @Html.Partial("_LoginPartial")
         </div>
-    </div>
+    </nav>
     <div class="container body-content">
         @RenderBody()
         <hr />
