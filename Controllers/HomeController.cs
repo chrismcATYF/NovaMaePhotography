@@ -6,24 +6,31 @@ using System.Web.Mvc;
 
 namespace NovaMaePhotography.Controllers
 {
+    [RoutePrefix("Home")]
+    [AllowAnonymous]
     public class HomeController : Controller
     {
+        [Route("", Name = "IndexPage")]
         public ActionResult Index()
         {
             return View();
         }
 
+        [Route("About", Name = "AboutPage")]
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
+        [Route("Contact", Name = "ContactPage")]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        [Route("Gallery", Name = "GalleryPage")]
+        public ActionResult Gallery()
+        {
             return View();
         }
     }

@@ -25,6 +25,8 @@ namespace NovaMaePhotography.Models
         {
         }
 
+        public DbSet<Photos> Photos { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
