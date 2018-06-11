@@ -16,7 +16,13 @@
     border-radius: 10px 10px;
 }
 
+#indexCards {
+    padding-top: 60px;
+}
+
 #IndexCarousel {
+    border-radius: 10px 10px;
+    padding-top: 10px;
     margin-top: 50px;
     height: 500px;
     width: 500px;

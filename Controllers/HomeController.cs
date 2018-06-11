@@ -16,14 +16,15 @@ namespace NovaMaePhotography.Controllers
             return View();
         }
 
-        [Route("About", Name = "AboutPage")]
-        public ActionResult About()
+        [Authorize]
+        [Route("PersonalGallery", Name = "PersonalGalleryPage")]
+        public ActionResult PersonalGallery()
         {
             return View();
         }
 
-        [Route("Contact", Name = "ContactPage")]
-        public ActionResult Contact()
+        [Route("Book", Name = "BookPage")]
+        public ActionResult Book()
         {
             return View();
         }
