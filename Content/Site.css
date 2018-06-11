@@ -8,8 +8,20 @@
     margin-top: 40px;
 }
 
+#contactCol {
+    border-radius: 10px 10px;
+}
+
+#aboutCol {
+    border-radius: 10px 10px;
+}
+
 #IndexCarousel {
     margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Set padding to keep content from hitting the edges */
